@@ -211,7 +211,7 @@ pub fn Gltf(config: Config) type {
             const name_default = if (config.include_name_in.material) &.{} else {};
 
             name: Name = name_default,
-            pbr_metallic_roughness: ?PbrMetallicRoughness = null,
+            pbr_metallic_roughness: PbrMetallicRoughness = .{},
 
             normal_texture: ?TextureInfo = null,
 
