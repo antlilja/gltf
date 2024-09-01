@@ -92,3 +92,10 @@ pub const KhrLightsPunctualNode = struct {
 
     light: Index = .undefined,
 };
+
+// Material extensions
+pub const KhrMaterialsEmissiveStrength = struct {
+    pub const name = "KHR_materials_emissive_strength";
+
+    emissive_strength: f32 = 1.0,
+};

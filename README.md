@@ -84,5 +84,6 @@ The following extensions currently have structs provided:
 KHR_lights_punctual
 KHR_texture_transform
 KHR_texture_basisu
+KHR_materials_emissive_strength
 EXT_meshopt_compression
 ```
