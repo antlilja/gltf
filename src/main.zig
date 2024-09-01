@@ -28,3 +28,7 @@ pub fn parseGltf(
         tmp_allocator,
     );
 }
+
+test {
+    std.testing.refAllDecls(@This());
+}
